@@ -8,7 +8,8 @@ def full_name
 end
 
 def list_roles
-self.character.all
+character_array = self.character.all
+
 end
 
 end
