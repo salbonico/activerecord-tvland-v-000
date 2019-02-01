@@ -9,7 +9,7 @@ def full_name
 end
 
 def list_roles
-character_array = self.characters
+character_array = self.characters.name
 binding.pry
 end
 
