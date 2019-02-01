@@ -2,8 +2,8 @@ class CreateActors < ActiveRecord::Migration
 
   def change
   create_table :actors do |t|
-    t.text :first_name
-    t.text :last_name
+    t.string :first_name
+    t.string :last_name
   end
 end
 
