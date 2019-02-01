@@ -9,8 +9,9 @@ def full_name
 end
 
 def list_roles
-character_array = self.characters
-binding.pry
+self.characters.each do |character|
+  ""
+
 end
 
 end
