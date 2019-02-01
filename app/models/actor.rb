@@ -8,7 +8,7 @@ def full_name
 end
 
 def list_roles
-self.all
+self.character.all
 end
 
 end
