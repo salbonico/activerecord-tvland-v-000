@@ -13,7 +13,7 @@ def list_roles
 self.characters.each do |character|
   output << "#{character.name} - #{character.show.name}"
 end
-return output
+output
 end
 
 end
