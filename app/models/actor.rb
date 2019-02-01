@@ -9,9 +9,11 @@ def full_name
 end
 
 def list_roles
+  output = []
 self.characters.each do |character|
-  "#{character.name} - #{character.show.name}"
+  output << "#{character.name} - #{character.show.name}"
 end
+return output
 end
 
 end
